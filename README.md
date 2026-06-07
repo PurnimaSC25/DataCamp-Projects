@@ -10,7 +10,7 @@ Nasdaq 100 data in raw CSV form is just a list of company names and price number
 Given the year-to-date performance of Nasdaq 100 companies headquartered in California, which sectors and specific stocks are worth investing in right now?
 
 # The code solves the below things in sequence:
-Merge CSVs ------------------> The company names and performance numbers live in two separate files so they need to be connected
+Merge CSVs ------------------> The company names and performance numbers live in two separate files so they need to be connected  
 Sector classification -------> Raw data has no sector labels because of which we can't compare "Apple vs Pfizer" meaningfully without knowing one is Tech and the                                 other is Healthcare
 AI recommendation -----------> Even with sectors and YTD numbers, a human still has to interpret them, the LLM does that interpretation at scale in seconds
 
