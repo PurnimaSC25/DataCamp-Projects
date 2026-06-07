@@ -4,7 +4,7 @@ Analyzes Nasdaq 100 California-headquartered companies by merging financial perf
 
 # Project Objective
 The Goal
-Nasdaq 100 data in raw CSV form is just a list of company names and price numbers which tells you what happened (stock went up 42% YTD) but not why it matters or what to do with it. The goal was to turn that raw data into something actionable by layering in two things a spreadsheet can't give you: sector context and investment reasoning.
+Nasdaq 100 data in raw CSV form is just a list of company names and price numbers which tells you what happened (stock went up 42% YTD) but not why it matters or what to do with it. The goal was to turn that raw data into something actionable by layering in two things: sector context and investment reasoning, something which a spreadsheet can't give.
 
 # The Question
 Given the year-to-date performance of Nasdaq 100 companies headquartered in California, which sectors and specific stocks are worth investing in right now?
