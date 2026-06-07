@@ -20,7 +20,7 @@ Libraries: Pandas, openai, json
 Environment: DataCamp DataLab
 
 # 📈 Key Insights & Results
-important things discovered in the data:
+important things discovered in the data:                       
 **Insight 1:** What did the data show?
 Technology and Communication dominated YTD performance — the AI-powered analysis identified these as the two strongest sectors, with Technology averaging 46.5%    YTD and Communication averaging 45.9% YTD across all classified companies in the dataset.
 
