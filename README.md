@@ -26,4 +26,5 @@ Technology and Communication dominated YTD performance: the AI-powered analysis 
 
 **Insight 2:** What was surprising?
 Nvidia (NVDA) stood out as the single biggest outlier with a 217.27% YTD return, it outperformed every other company in the dataset by a wide margin, driven by surging demand for GPUs in AI infrastructure. Meta (META) was a close second surprise at 153.78%, reflecting a strong advertising rebound after a difficult prior year. This is by far the unexpected finding in the dataset.
-5. **Conclusion:** What action should someone take based on your data?
+
+**Conclusion:** What action should someone take based on your data?
