@@ -27,7 +27,7 @@ Environment: DataCamp DataLab
 • Stores the final recommendation as a variable (`stock_recommendations`) for downstream use or reporting
 
 # Key Engineering Decisions
-→ Batched API call over row-wise apply(). This reduced ~100 network round-trips to 1, cutting latency from ~2 to 5 minutes to seconds
+→ Batched API call over row-wise apply(). This reduced ~100 network round-trips to 1, cutting latency from ~2 to 5 minutes to seconds    
 → Prompt design instructs the model to return strict JSON with no markdown or preamble, enabling reliable json.loads() parsing without brittle string cleanup
 → Persona prompting ("you are a senior equity analyst") used to anchor the model's output style and improve recommendation quality
 
