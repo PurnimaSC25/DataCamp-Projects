@@ -22,8 +22,8 @@ Environment: DataCamp DataLab
 # What the Project Does?
 • Ingests two CSV datasets (company info + price performance) and merges them on a shared key using pandas, producing a clean, analysis-ready DataFrame     
 • Calls the OpenAI Chat Completions API (gpt-4o-mini) to classify 100 Nasdaq-listed companies into one of 10 sectors: Technology, Healthcare, Financials, and more   
-• Sends a structured prompt with all 100 companies to the API in a single batched call, returning a JSON array that is parsed and mapped back to the DataFrame — replacing a naive per-row approach that would have made ~100 separate API calls
-• Constructs a second prompt that passes the enriched dataset (symbol, name, sector, YTD) to the model as a senior equity analyst persona, generating a natural-language recommendation of the two best sectors and top stock picks with rationale
+• Sends a structured prompt with all 100 companies to the API in a single batched call, returning a JSON array that is parsed and mapped back to the DataFrame — replacing a naive per-row approach that would have made ~100 separate API calls     
+• Constructs a second prompt that passes the enriched dataset (symbol, name, sector, YTD) to the model as a senior equity analyst persona, generating a natural-language recommendation of the two best sectors and top stock picks with rationale     
 • Stores the final recommendation as a variable (`stock_recommendations`) for downstream use or reporting
 
 # Key Engineering Decisions
